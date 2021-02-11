@@ -1,10 +1,10 @@
-var intervalID = window.setInterval(log, 100);
+var intervalID = window.setInterval(log, 1000);
 
 function log() {
     console.log("A");
 }
 
-var audio = new Audio('https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6d/Cave2.ogg/revision/latest');
+var audio = new Audio("https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/Cave1.ogg");
 
 function sound() {
     audio.play();
